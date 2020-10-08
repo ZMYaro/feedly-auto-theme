@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Auto Dark Theme for Feedly",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Make Feedly automatically match your system's dark/light theme.",
 	"icons": {
 		"16": "images/icon_16.png",
