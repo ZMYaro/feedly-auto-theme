@@ -20,5 +20,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(setOverrideTheme)
 
 // Set to the system theme at load time.
 setOverrideTheme();
-// Set it again in case Feedly changes it.
-setTimeout(setOverrideTheme, 100);
+// Set it again after load in case Feedly changes it on load.
+window.addEventListener('load', function () {
+	setTimeout(setOverrideTheme, 10);
+});
