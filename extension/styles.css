@@ -1,0 +1,5 @@
+#theme\.web::after {
+	content: ' (overridden by Auto Dark Theme for Feedly extension)';
+	color: #9e9e9e;
+	color: var(--semanticColorContentLight);
+}
